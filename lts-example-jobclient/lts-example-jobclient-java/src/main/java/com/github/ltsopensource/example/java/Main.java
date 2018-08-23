@@ -32,10 +32,10 @@ public class Main {
 
         jobClient.start();
 
-        submitCronJob(jobClient);
-        submitRepeatJob(jobClient);
-        submitRealtimeJob(jobClient);
-        submitTriggerTimeJob(jobClient);
+//        submitCronJob(jobClient);
+//        submitRepeatJob(jobClient);
+//        submitRealtimeJob(jobClient);
+//        submitTriggerTimeJob(jobClient);
     }
 
     private static void submitCronJob(JobClient jobClient) {
